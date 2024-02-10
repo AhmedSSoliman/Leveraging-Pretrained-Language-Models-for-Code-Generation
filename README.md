@@ -1,5 +1,15 @@
 # Leveraging Pretrained Language Models for Code Generation
 
+Code generation has become an indispensable tool within the software development process, empowering developers to navigate intricate coding scenarios effortlessly. With the advent of language models and generative AI technology, code generation has evolved to harness automated tools that scrutinize codebases, identify programming patterns, and propose code completions or enhancements. Consequently, this evolution has resulted in a significant enhancement of programming efficiency and reliability.
+A pivotal advancement in contemporary technology lies in the creation of transformer language models. These models have demonstrated exceptional efficacy in capturing subtle nuances in language, producing coherent, and contextually appropriate text. Successfully deployed in diverse natural language processing tasks, including text classification, text generation, sentiment analysis, machine translation, and speech recognition, transformer language models stand as a key breakthrough in modern technological landscape.
+
+In this work, we explore the integration of pre-trained transformer language models with the Marian Decoder for code generation. We evaluate the performance of these models on two datasets and compare them to existing state-of-the-art models. We aim to investigate the potential of pre-trained transformer language models to revolutionize code generation, offering improved precision and efficiency in navigating complex coding scenarios.
+We select four transformer language models, DistilRoBERTa, DistilBERT, ELECTRA, and LUKE, for our study, based on their strong performance in various natural language processing tasks. Our thorough analysis includes evaluations on the CoNaLa and DJANGO datasets, as well as assessments of static errors and refactoring.
+
+Our results show that these models, when combined with the Marian Decoder, significantly improve code generation accuracy and efficiency. Notably, the RoBERTaMarian model achieved a maximum BLEU score of 35.74 and an exact match accuracy of 13.8\% on CoNaLa, while LUKE-Marian attained a BLEU score of 89.34 and an exact match accuracy of 78.50% on DJANGO.
+Our findings demonstrate the potential of pre-trained transformer language models to revolutionize code generation, offering improved precision and efficiency in navigating complex coding scenarios. The introduced models represent a significant step forward in this field, paving the way for future advancements in code assistance and automation.
+
+# Proposed Models
 
 ## 1- DistilBERT + Marian Decoder
 
