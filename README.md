@@ -72,15 +72,14 @@ Implementation of the model is done this notebook at Google Colab Pro
 
 
 
-```
 
 
 # Citation
 
-We now have a [paper](https://doi.org/10.1186/s44147-022-00159-4) for this work and you can cite:
+We now have a [paper](https://doi.org/10.1007/s40747-024-01373-8) for this work and you can cite:
 
 ```
-@article{soliman2022mariancg,
+@article{soliman2024leveraging,
   title={Leveraging pre-trained language models for code generation},
   author={Soliman, Ahmed and Shaheen, Samir and  Hadhoud, Mayada},
   journal={Complex & Intelligent Systems},
